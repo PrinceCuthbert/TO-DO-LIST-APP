@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>To-Do List</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>To-Do List</h1>
+      <p id="demo"></p>
+
+      <ul id="list">
+        <li>Buy groceries</li>
+        <li>Clean the house</li>
+        <li>Finish homework</li>
+      </ul>
+
+      <input type="text" id="fruitInput" placeholder="Enter a task" />
+      <button id="addOneRecordButton">Add Task</button>
+      <button id="deleteOneRecordButton" onclick="deleteContent()">
+        Delete Task
+      </button>
+      <button id="addNewRecordButton" onclick="newRecipe()">New List</button>
+
+      <ul id="recordList"></ul>
+
+      <script src="app.js"></script>
+    </div>
+  </body>
+</html>
